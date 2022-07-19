@@ -1,3 +1,0 @@
-install: 
-FILE="-Dfile=play-services-tapandpay-18.2.0.aar"
-mvn install:install-file $FILE -DgroupId=com.google.android.gms.play-services-tapandpay -DartifactId=play-services-tapandpay -Dversion=1.4 -Dpackaging=aar -DgeneratePom=true
